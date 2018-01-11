@@ -1,2 +1,1 @@
-# Olio
-Olio juttuja
+# Ohjelmoinnin harjoitukset löytyy täältä.
