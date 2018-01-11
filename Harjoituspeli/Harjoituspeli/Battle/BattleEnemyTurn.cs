@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Harjoituspeli.Battle
 {
-    public class BattleMonDefend
+    class BattleEnemyTurn
     {
-        public BattleMonDefend()
-        {
-
-        }
     }
 }

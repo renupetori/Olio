@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Harjoituspeli.Battle
 {
-    class BattleHeroAttack
+    public class BattleHeroAttack
     {
+        public BattleHeroAttack()
+        {
+
+        }
     }
 }

@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Harjoituspeli
+namespace Harjoituspeli.Level
 {
     class Level1
     {
+        public Level1()
+        {
+            new Battle.BattleGoblin();
+        }
     }
 }

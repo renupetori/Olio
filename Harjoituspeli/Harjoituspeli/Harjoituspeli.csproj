@@ -43,13 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Battle\Battle.cs" />
+    <Compile Include="Battle\BattleEnemyTurn.cs" />
+    <Compile Include="Battle\BattleHeroDefend.cs" />
     <Compile Include="Battle\BattleHeroAttack.cs" />
-    <Compile Include="Battle\BattleDefend.cs" />
+    <Compile Include="Battle\BattleGoblin.cs" />
     <Compile Include="Battle\BattleMonAttack.cs" />
+    <Compile Include="Battle\BattleMonDefend.cs" />
+    <Compile Include="Battle\BattleHeroTurn.cs" />
     <Compile Include="Character\CharacterCreation.cs" />
     <Compile Include="Character\Character.cs" />
-    <Compile Include="Enemy\EnemyLib.cs" />
+    <Compile Include="Enemy\Level1EnemyList.cs" />
     <Compile Include="Levels\Level1.cs" />
     <Compile Include="Character\LevelUp.cs" />
     <Compile Include="Program.cs" />

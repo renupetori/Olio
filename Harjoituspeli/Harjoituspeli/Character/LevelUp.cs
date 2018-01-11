@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Runtime.Caching;
 
 
-namespace Harjoituspeli
+namespace Harjoituspeli.Character
 {
     public class LevelUp
     {

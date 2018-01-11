@@ -11,20 +11,16 @@ namespace Harjoituspeli
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Mini Dungeon!");
-            new CharacterCreation();
+            new Character.CharacterCreation();
 
-            Console.WriteLine($"Your name is {CharacterCreation._name}.");
+            Console.WriteLine($"Your name is {Character.CharacterCreation._name}.");
             Console.ReadKey();
 
-            new Character();
+            new Character.Character();
 
-            new Battle();
-            new Battle();
-            new Battle();
-            new Battle();
-            new Battle();
+            new Level.Level1();
 
-            Console.WriteLine($"STR is: {Character._stats["STR"]}");
+            Console.WriteLine($"STR is: {Character.Character._stats["STR"]}");
             Console.ReadKey();
 
 
