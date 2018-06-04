@@ -29,11 +29,11 @@ namespace Kirja_ja_kirjailija
         {
             if (Title == title)
             {
-                Console.WriteLine($"Kirja: {Title}\nKirjailija: {Author}\nJulkaisija: {Publisher}\nHinta: {Price}\nTeema: {Theme}");
+                Console.WriteLine($"----\nKirja: {Title}\nKirjailija: {Author}\nJulkaisija: {Publisher}\nHinta: {Price}\nTeema: {Theme}");
             }
             else
             {
-                Console.WriteLine($"Kirjaa nimeltä: {title} ei löytynyt!");
+                Console.WriteLine($"----\nKirjaa nimeltä: {title} ei löytynyt!");
             }
         }
 
@@ -52,13 +52,26 @@ namespace Kirja_ja_kirjailija
             {
                 if (value > 30)
                 {
-                    Price = value * 0.9;
+                    Price = Math.Round(value * 0.9, 2);
                 }
                 else
                 {
                     Price = value;
                 }
             }
+        }
+
+        public string AuthorValue
+        {
+            get
+            {
+                return Author;
+            }
+        }
+
+        public void PrintBook()
+        {
+            Console.WriteLine($"----\nKirja: {Title}\nJulkaisija: {Publisher}\nHinta: {Price}\nTeema: {Theme}");
         }
 
     }
